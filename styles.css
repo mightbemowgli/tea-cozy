@@ -1,6 +1,6 @@
 /* Universal */
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -60,7 +60,7 @@ main {
     justify-content: center;
 }
 
-div.hero {
+.hero {
     width: 1200px;
     height: 700px;
     background-image: url("./photos/img-mission-background.jpg");
@@ -69,7 +69,7 @@ div.hero {
     align-items: center;    
 }
 
-div.hero-overlay {
+.hero-overlay {
     width: 100%;
     background-color: black;
     text-align: center;
@@ -96,5 +96,45 @@ div.hero-overlay {
 }
 
 /* Locations */
+#locations {
+    display: flex;
+    justify-content: center;
+}
+
+.location-container {
+    width: 1200px;
+    height: 500px;
+    background-image: url("./photos/img-locations-background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.location-overlay {
+    margin-top: 15px;
+    display: flex;
+    gap: 40px;
+}
+
+.location-card {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /* Footer */
+
+.contact {
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
