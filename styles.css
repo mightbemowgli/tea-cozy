@@ -1,12 +1,12 @@
 /* Universal */
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 html, a {
-    box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -15,6 +15,10 @@ html, a {
 
 body {
     background-color: black;
+}
+
+h2, h4 {
+    padding: 10px;
 }
 
 /* Nav Section */
@@ -71,12 +75,25 @@ div.hero-overlay {
     text-align: center;
 }
 
-.hero-overlay h2,
-.hero-overlay h4 {
-    padding: 10px;
+/* TotM Section */
+
+#featured {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* TotM Section */
+.featured-container {
+    width: 1000px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
 
 /* Locations */
 
