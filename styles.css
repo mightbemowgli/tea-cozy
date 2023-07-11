@@ -1,0 +1,60 @@
+/* Universal */
+* {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+}
+
+html, a {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+body {
+    background-color: black;
+}
+
+/* Nav Section */
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 9px 10px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    flex-shrink: 0;
+}
+
+/* Hero Section */
+
+
+
+/* TotM Section */
+
+/* Locations */
+
+/* Footer */
